@@ -1,0 +1,192 @@
+/*--------------------body-----------*/
+#myVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+/*.content {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  color: #f1f1f1;
+  min-width: 100vw;
+  min-height: 89.2vh;
+  padding: 5rem 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}*/
+
+/*.content>h1 {
+  color: #ffffff;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /*background-color: #747474c5;
+  padding: 0 2rem;
+}*/
+
+
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 150px;
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+  background: rgb(32, 32, 32);
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: rgba(210, 171, 44, 1);
+  color: black;
+}
+
+.covid19-page-OrgSection {
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgb(240, 240, 240);
+  padding: 1.5rem;
+}
+
+.covid19-page-OrgSection-divContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.covid19-heading-p {
+  max-width: 30rem;
+}
+
+.covid19-page-OrgSection>.row-12 {
+  text-align: center;
+  width: 50rem;
+}
+
+.covid19-page-firstSection {
+  margin: 2rem 0;
+}
+
+.firstSection-p-container>span {
+  font-size: 1.1rem;
+  width: 10rem;
+}
+
+.bng-role-image {
+  box-shadow: 40px 40px rgba(210, 171, 44, 0.5);
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+
+.covid19-page-secondSection {
+  background-color: black;
+  margin: 2rem 0;
+}
+
+.firstSection-p-container-h1 {
+  border-bottom: 2px solid rgba(99, 99, 99, 0.112);
+}
+
+.secondSection-p-container-h1 {
+  color: white !important;
+  border-bottom: 2px solid rgba(99, 99, 99, 0.212);
+}
+
+.secondSection-p-container {
+  color: rgb(240, 240, 240);
+}
+
+/*----------------FOOTER------->*/
+.covid19-page-footer {
+  position: relative;
+}
+
+.heading-row-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.covid19-imagesRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 40rem;
+}
+
+.covid19-imagesRow>div {
+  padding: 1rem;
+}
+
+.covid19-title {
+  margin-bottom: 3rem;
+}
+
+.listed-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-direction: row;
+}
+
+.iconss {
+  margin: 0.6rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bng-role-image {
+    box-shadow: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+  }
+
+  .secondSection-p-container,
+  .firstSection-p-container {
+    margin-bottom: 3rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and(min-width: 600px)and(max-width: 768px) {
+  .bng-role-image {
+    box-shadow: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+    margin-top: 1rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)and(max-width: 1090px) {
+  .bng-role-image {
+    box-shadow: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

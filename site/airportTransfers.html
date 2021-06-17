@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+    <title>BNG</title>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport"
+        content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <link rel="icon" href="images/bngLogo17.png" type="image/x-icon" />
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css"
+        href="//fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700,800%7COswald:300,400,500%7CAlegreya+Sans+SC:300,400,700%7COld+Standard+TT:400,700" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/airportTransfers.css" />
+    <link rel="stylesheet" href="css/style.css" id="main-styles-link" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!--[if lt IE 10]>
+      <div
+        style="
+          background: #212121;
+          padding: 10px 0;
+          box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.3);
+          clear: both;
+          text-align: center;
+          position: relative;
+          z-index: 1;
+        "
+      >
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/"
+          ><img
+            src="images/ie8-panel/warning_bar_0000_us.jpg"
+            border="0"
+            height="42"
+            width="820"
+            alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."
+        /></a>
+      </div>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="page">
+        <!-- Page Header-->
+        <header class="section page-header">
+            <!-- RD Navbar-->
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-thin" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+                    data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed"
+                    data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed"
+                    data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-fixed"
+                    data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static"
+                    data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px"
+                    data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+                    <div class="rd-navbar-main-outer">
+                        <div class="rd-navbar-main">
+                            <!-- RD Navbar Panel-->
+                            <div class="rd-navbar-panel">
+                                <!-- RD Navbar Toggle-->
+                                <button class="rd-navbar-toggle" data-rd-navbar-toggle="#rd-navbar-nav-wrap-NaN">
+                                    <span></span>
+                                </button>
+                                <!-- RD Navbar Brand--><a class="rd-navbar-brand" href="index.html"><img
+                                        src="images/bngLogo20.jpg" alt="" width="210" height="90"
+                                        srcset="images/bngLogo20.jpg 2x" /></a>
+                                <div class="rd-navbar-block">
+                                    <ul class="list-inline-bordered">
+                                        <button class="rd-navbar-popup-toggle font-weight-light">
+                                            <span class="mdi mdi-pencil"><span class="hidden-info font-weight-light">
+                                                    <a href="https://book.mylimobiz.com/v4/bnglimo">  Book Now</a></span></span>
+                                        </button>
+                                        <li>
+                                            <a class="link-title" href="tel:#"><span
+                                                    class="mdi mdi-cellphone-android"><span
+                                                        class="text-subtitle hidden-info font-weight-light">
+                                                        +18555154666</span></span></a>
+                                        </li>
+                                        <li>
+                                            <a class="link-title" href="tel:#"><span class="mdi mdi-tooltip-text"><span
+                                                        class="text-subtitle hidden-info font-weight-light">
+                                                        Get Your Free Quote Call +18555154666</span></span></a>
+                                        </li>
+
+                                    </ul>
+                                    <button class="rd-navbar-search-toggle"
+                                        data-rd-navbar-toggle="#rd-navbar-search-NaN">
+                                        <span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- RD Navbar Search-->
+                            <div class="rd-navbar-search" id="rd-navbar-search-NaN">
+                                <form class="rd-search" action="search-results.html"
+                                    data-search-live="rd-search-results-live-NaN" method="GET">
+                                    <div class="form-wrap">
+                                        <label class="form-label"
+                                            for="rd-navbar-search-form-input-NaN">Search...</label>
+                                        <input class="form-input rd-navbar-search-form-input"
+                                            id="rd-navbar-search-form-input-NaN" type="text" name="s"
+                                            autocomplete="off" />
+                                        <div class="rd-search-results-live" id="rd-search-results-live-NaN"></div>
+                                    </div>
+                                    <button class="rd-search-form-submit fa-search" type="submit"></button>
+                                </form>
+                            </div>
+                            <div class="rd-navbar-nav-wrap" id="rd-navbar-nav-wrap-NaN">
+                                <!-- RD Navbar Brand--><a class="rd-navbar-brand" href="index.html"><img
+                                        src="images/logo-default-135x43.png" alt="" width="135" height="43"
+                                        srcset="images/logo-default-135x43.png 2x" /></a>
+                                <!-- RD Navbar Nav-->
+                                <ul class="rd-navbar-nav">
+                                    <li class="rd-nav-item active">
+                                        <a class="rd-nav-link" href="covid19.html">Covid-19</a>
+                                    </li>
+                                    <li class="rd-nav-item">
+                                        <a class="rd-nav-link" href="#">Transfers</a>
+                                        <!-- RD Navbar Dropdown-->
+                                        <ul class="rd-menu rd-navbar-dropdown">
+                                            <li class="rd-dropdown-item">
+                                                <a class="rd-dropdown-link"
+                                                    href="executiveTransportation.html">Executive Transportation</a>
+                                            </li>
+                                            <li class="rd-dropdown-item">
+                                                <a class="rd-dropdown-link" href="airportTransfers.html">Airport
+                                                    transfers</a>
+                                            </li>
+                                            <li class="rd-dropdown-item">
+                                                <a class="rd-dropdown-link" href="familyTransfers.html">Family
+                                                    transfers</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="rd-nav-item">
+                                        <a class="rd-nav-link" href="#">Tours</a>
+                                        <!-- RD Navbar Dropdown-->
+                                        <ul class="rd-menu rd-navbar-dropdown">
+                                            <li class="rd-dropdown-item">
+                                                <a class="rd-dropdown-link" href="services.html">City tours</a>
+                                            </li>
+                                            <li class="rd-dropdown-item">
+                                                <a class="rd-dropdown-link" href="wineTour.html">Wine tours</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="rd-nav-item">
+                                        <a class="rd-nav-link" href="#">Occasions</a>
+                                        <!-- RD Navbar Dropdown-->
+                                        <ul class="rd-menu rd-navbar-dropdown">
+                                            <li class="rd-dropdown-item">
+                                                <a class="rd-dropdown-link" href="specialEvents.html#wedding">Weddings /
+                                                    Proms</a>
+                                            </li>
+                                            <li class="rd-dropdown-item">
+                                                <a class="rd-dropdown-link"
+                                                    href="specialEvents.html#honeymoon">Honeymoon, Anniversary or date
+                                                    night</a>
+                                            </li>
+                                            <li class="rd-dropdown-item">
+                                                <a class="rd-dropdown-link" href="specialEvents.html#dateNight">A night
+                                                    in SF</a>
+                                            </li>
+                                            <li class="rd-dropdown-item">
+                                                <a class="rd-dropdown-link" href="specialEvents.html">Events</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="rd-nav-item">
+                                        <a class="rd-nav-link" href="#">Corporate</a>
+                                        <!-- RD Navbar Dropdown-->
+                                        <ul class="rd-menu rd-navbar-dropdown">
+                                            <li class="rd-dropdown-item">
+                                                <a class="rd-dropdown-link" href="aboutUs.html">Why BNG</a>
+                                            </li>
+                                            <li class="rd-dropdown-item">
+                                                <a class="rd-dropdown-link" href="marketsServeds.html">Markets
+                                                    served</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="rd-nav-item">
+                                        <a class="rd-nav-link" href="faqs.html">FAQs</a>
+                                    </li>
+                                    <li class="rd-nav-item">
+                                        <a class="rd-nav-link" href="contacts.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="heading-section">
+            <div class="breadcrumbs-custom-inner heading-section-title-div">
+                <div class="container breadcrumbs-custom-container">
+                    <div class="breadcrumbs-custom-main heading-section-title-tags">
+                        <h5 class="breadcrumbs-custom-subtitle title-decorated">Transfers</h5>
+                        <h1 class=" wow slideInUp" style="font-weight: 600; font-size: 32px;">
+                            Airport Pickups/ Drop offs</h1>
+                        <p style="font-size: 13px;">Flying from or to San
+                            Francisco Bay Area,
+                            weather it is San Francisco International Airport
+                            (SFO), Oakland International Airport (OAK) or Norman Y. Mineta San Jose International
+                            Airport (SJC) or any of the other General Aviation airports listed below.</p>
+                    </div>
+                    <ul class="breadcrumbs-custom-path">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">Transfers</li>
+                        <li class="active">Airport Pickups/ Drop offs</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="upper-section">
+            <div class="container upper-section-container">
+                <div class="row upper-section-main-row">
+                    <div class="col-12 col-lg-5 col-md-5 upper-section-text-col wow slideInLeft">
+                        <h1 class="heading-subtitle2-font">Greet service (Inside meet) </h1>
+                        <span class="golden-underline"></span>
+                        <ul>
+                            <li class="listed-item"><img class="iconss" src="./icons/icon20.svg" alt="" width="20"
+                                    height="25" />
+                                <br>
+                                <p>You are new to a place a need the most receptive and welcoming
+                                    team by the airport just for you or you might need assistance with picking up
+                                    luggage?
+                                    Well, once you land at the airport, you will meet your driver at the baggage
+                                    collection
+                                    area.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-7 col-md-7 upper-section-image-col wow slideInRight"><img
+                            class="upper-section-image img-fluide" src="images/greetServices.jpg" alt="" width="550"
+                            height="300" srcset="images/images/greetServices.jpg 2x" /></div>
+                </div>
+            </div>
+        </section>
+        <section class="firstMiddle-section">
+            <div class="container firstMiddle-section-container">
+                <div class="row firstMiddle-section-main-row">
+                    <div class="col-12 col-lg-7 col-md-7 firstMiddle-section-image-col wow slideInLeft">
+                        <img class="firstMiddle-section-image" src="images/why-kei-8e2gal_GIE8-unsplash.jpg" alt=""
+                            width="550" height="300" srcset="images/images/why-kei-8e2gal_GIE8-unsplash.jpg 2x" />
+                    </div>
+
+                    <div class="col-12 col-lg-5 col-md-5 firstMiddle-section-text-col wow slideInRight">
+                        <h1 class="heading-subtitle2-font">Curbside pick-up </h1><br><span></span>
+                        <ul>
+                            <li class="listed-item"><img class="iconss" src="./icons/icon20.svg" alt="" width="20"
+                                    height="25" />
+                                <p>There is so much for you when you use BNG chauffeur
+                                    services. For faster pickups your chauffeur will be waiting 3-5 minutes away
+                                    from terminals for your text with the exact terminal, door number and
+                                    confirming on which level.
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="secondMiddle-section">
+            <div class="container secondMiddle-section-container">
+                <div class="row secondMiddle-section-main-row">
+                    <div class="col-12 col-lg-5 col-md-5 secondMiddle-section-text-col wow slideInLeft">
+                        <h1 class="heading-subtitle2-font">Flight monitoring </h1><br><span></span>
+                        <ul>
+                            <li class="listed-item"><img class="iconss" src="./icons/icon20.svg" alt="" width="20"
+                                    height="25" />
+                                <p style="color: white;">Using multiple flight tracker third parties such as Google
+                                    flight tracker, flight
+                                    aware,
+                                    flight radar, Limo anywhere and airline / airport information desk we track your
+                                    flight
+                                    whether it is departing to assume traffic to airport or arriving to not to cost you
+                                    extra
+                                    for any flight delays or cancelations.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-7 col-md-7 secondMiddle-section-image-col wow slideInRight"><img
+                            class="secondMiddle-section-image" src="images/flight.jpg" alt="" width="550" height="300"
+                            srcset="images/images/flight.jpg 2x" /></div>
+                </div>
+            </div>
+        </section>
+        <section class="lower-section">
+            <div class="container lower-section-container">
+                <div class="row lower-section-main-row">
+                    <div class="col-12 col-lg-7 col-md-7 lower-section-image-col wow slideInLeft"><img
+                            class="lower-section-image" src="images/Private jet (Main).jpg" alt="" width="550"
+                            height="300" srcset="images/images/Private jet (Main).jpg 2x" />
+                    </div>
+                    <div class="col-12 col-lg-5 col-md-5 lower-section-text-col wow slideInRight">
+                        <h1 class="heading-subtitle2-font">FBO’s served </h1><br><span></span>
+                        <ul>
+                            <li class="listed-item"><img class="iconss" src="./icons/icon20.svg" alt="" width="20"
+                                    height="25" />
+                                <p style="color: white;"> Buchanan Field Airport (KCCR) in Concord, Contra Costa
+                                    County
+                                    Hayward Executive Airport (KHWD) in Hayward, Alameda County
+                                    Livermore Municipal Airport (KLVK) in Livermore, Alameda County
+                                    Napa County Airport (KAPC) in Napa, Napa County
+                                    Palo Alto Airport (KPAO) in Palo Alto, Santa Clara County
+                                    Reid–Hillview Airport (KRHV) in San Jose, Santa Clara County
+                                    San Carlos Airport (KSQL) in San Carlos, San Mateo County
+                                    Travis Air Force Base (KSUU) in Fairfield, Solano County
+                                    Moffett Federal Airfield (KNUQ) in Mountain View and Sunnyvale, Santa
+                                    Clara County
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="thirdMiddle-section">
+            <div class="container thirdMiddle-section-container">
+                <div class="row thirdMiddle-section-main-row">
+                    <div class="col-12 col-lg-5 col-md-5 thirdMiddle-section-title-col wow slideInLeft">
+                        <div class="title-div">
+                            <h3 class="text-left"
+                                style="font-weight: 600; display: flex; justify-content: center; align-items:flex-start; flex-direction: column;"
+                                class="heading-subtitle2-font">
+                                Commercial Airports served <span class="underline-span"></span></h3>
+                            <ul>
+                                <li class="listed-item"><img class="iconss" src="./icons/icon20.svg" alt="" width="20"
+                                        height="25" />
+                                    <p>Our chauffeurs are trained and familiar
+                                        with Tarmac pickups starting with signing in with the airport front desk
+                                        to informing your flight crew when En Route to FBO.
+                                    </p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7 col-md-7">
+                        <div class="row">
+                            <div
+                                class="col-12 col-lg-3 col-md-3 thirdMiddle-section-commersialAirport1-col wow slideInUp">
+                                <p><img class="iconss" src="./icons/icon20.svg" alt="" width="20" height="25" />San
+                                    Francisco International Airport (SFO) </p>
+                                <img class="thirdMiddle-section-image" src="images/sfo_logo_share.jpg" alt=""
+                                    width="150" height="300" srcset="images/images/sfo.jpg 2x" />
+                            </div>
+                            <div
+                                class="col-12 col-lg-3 col-md-3 thirdMiddle-section-commersialAirport2-col wow slideInUp">
+                                <p><img class="iconss" src="./icons/icon20.svg" alt="" width="20" height="25" />Norman
+                                    Y. Mineta San José International Airport (SJC)</p>
+                                <img class="thirdMiddle-section-image" src="images/sjc.png" alt="" width="150"
+                                    height="300" srcset="images/images/sjc.png 2x" />
+                            </div>
+                            <div
+                                class="col-12 col-lg-3 col-md-3 thirdMiddle-section-commersialAirport3-col wow slideInUp">
+                                <p><img class="iconss" src="./icons/icon20.svg" alt="" width="20" height="25" />Oakland
+                                    International Airport (OAK)</p>
+                                <img class="thirdMiddle-section-image" src="images/oak2.jpg" alt="" width="150"
+                                    height="300" />
+                            </div>
+                            <div
+                                class="col-12 col-lg-3 col-md-3 thirdMiddle-section-commersialAirport4-col wow slideInUp">
+                                <p><img class="iconss" src="./icons/icon20.svg" alt="" width="20" height="25" />Charles
+                                    M. Schulz–Sonoma County Airport (STS)</p>
+                                <img class="thirdMiddle-section-image" src="images/sts.png" alt="" width="150"
+                                    height="300" srcset="images/images/sts.png 2x" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="section footer-linked bg-black-750">
+            <div class="footer-linked-main">
+                <div class="container">
+                    <div class="row row-50">
+                        <div class=" col-12 col-lg-8">
+                            <h4 class="text-title-footer footer-quicklinks">Quick Links</h4>
+                            <hr class="offset-right-1" />
+                            <div class="row row-20">
+                                <div class="col-4 col-sm-3">
+                                    <ul class="list list-xs footer-quicklinks">
+                                        <li><a href="aboutUs.html">Who we are</a></li>
+                                        <li><a href="aboutUs.html">Why BNG</a></li>
+                                        <li><a href="bngServices.html">What we do</a></li>
+                                        <li><a href="aboutUs.html">Fleet</a></li>
+                                        <li><a href="#associiations-and-partners">Partner with us</a></li>
+                                        <li><a href="contacts.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 col-sm-3">
+                                    <ul class="list list-xs footer-quicklinks">
+                                        <li><a href="faqs.html">FAQ’s</a></li>
+                                        <li><a href="contacts.html">Instant free Quote</a></li>
+                                        <li><a href="contacts.html">Book Now</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-4 col-sm-3">
+                                    <ul class="list list-xs footer-quicklinks">
+                                        <li><a href="#">Facebook</a></li>
+                                        <li><a href="#">Twitter</a></li>
+                                        <li><a href="#">Instagram</a></li>
+                                        <li><a href="#">LinkedIn</a></li>
+                                        <li><a href="#">Pinterest</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-7 col-lg-4">
+                            <h4 class="text-title-footer footer-quicklinks">Contact Information</h4>
+                            <hr />
+                            <ul class="list-sm">
+                                <li class="object-inline">
+                                    <span class="icon icon-md mdi mdi-map-marker"></span><a
+                                        class="link-default footer-quicklinks" href="#"><strong>Main
+                                            :</strong> 2033
+                                        Gateway PL suit 500, San Jose CA95112<br />
+                                        <strong>Branch :</strong> Daly City</a>
+                                </li>
+                                <li class="object-inline">
+                                    <span class="icon icon-md mdi mdi-phone"></span>
+                                    <ul class="list-0">
+                                        <li>
+                                            <a class="link-default footer-quicklinks" href="tel:#">+1 (855)515 -
+                                                4666</a>
+                                        </li>
+                                        <li>
+                                            <a class="link-default footer-quicklinks" href="tel:#">+1 (650)240 -
+                                                2666</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="object-inline emails-box">
+                                    <span class="icon icon-md mdi mdi-email"></span>
+                                    <ul>
+                                        <li><a class="link-default footer-quicklinks"
+                                                href="mailto:#"><strong>Reservations :</strong>
+                                                Reservations@bnglimousine.com</a></li>
+                                        <li><a class="link-default footer-quicklinks" href="mailto:#"><strong>Affiliates
+                                                    :</strong>
+                                                Affiliates@bnglimousine.com</a></li>
+                                        <li><a class="link-default footer-quicklinks" href="mailto:#"><strong>General
+                                                    :</strong>
+                                                info@bnglimousne.com</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="row footer-icons-row">
+                                <div class="col-4 footer-icons-col"><img class="footer-icons1" src="images/nla1.png"
+                                        alt="" width="" height="" /></div>
+                                <div class="col-4 footer-icons-col"><img class="footer-icons2"
+                                        src="images/greaterCalfornia.png" alt="" width="" height="" /></div>
+                                <div class="col-4 footer-icons-col"><img class="footer-icons3" src="images/ggti.png"
+                                        alt="" width="" height="" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-linked-aside">
+                <div class="container">
+                    <!-- Rights-->
+                    <p class="rights text-center">
+                        <span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>All Rights
+                            Reserved.</span><span>&nbsp;</span><br class="d-sm-none" /><a href="#">Terms of
+                            Use</a><span>
+                            and</span><span>&nbsp;</span><a href="privacy-policy.html">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="preloader">
+        <div class="preloader-logo">
+            <img src="images/bngLogo20.jpg" alt="" width="270" height="180" srcset="images/bngLogo20.jpg 2x" />
+        </div>
+        <div class="preloader-body">
+            <div id="loadingProgressG">
+                <div class="loadingProgressG" id="loadingProgressG_1"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
+    <script type="text/javascript" src="https://book.mylimobiz.com/v4/widgets/widget-loader.js"></script>
+    <!--JQUERY-->
+</body>
+
+</html>

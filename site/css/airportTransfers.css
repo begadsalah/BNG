@@ -1,0 +1,302 @@
+/*Heading sectopn*/
+.heading-section {
+    background: url(../images/airportTransfere-background10.jpg) no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    height: 95vh;
+}
+
+.heading-section::before {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 95vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.heading-section-title-div {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+    z-index: 15;
+}
+
+.heading-section-title-tags {
+    z-index: 15;
+}
+
+.heading-section-title-tags>h1,
+.heading-section-title-tags>h5 {
+    color: white;
+    z-index: 15;
+}
+
+.heading-section-title-tags>h1 {
+    font-size: 4.5rem;
+}
+
+.heading-section-title-tags>p {
+    color: rgba(210, 171, 44, 0.7);
+    max-width: 70rem;
+}
+
+.heading-section-title-div>h1 {
+    color: white;
+    z-index: 5;
+}
+
+
+.heading-section-title-div {
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+}
+
+.heading-section-title-div>h1 {
+    color: white;
+    z-index: 5;
+}
+
+
+.lower-section {
+    background-color: #000000;
+}
+
+.secondMiddle-section {
+    background-color: black;
+}
+
+.upper-section-container,
+.firstMiddle-section-container,
+.secondMiddle-section-container,
+.lower-section-container {
+    padding: 3rem;
+}
+
+.upper-section-main-row,
+.firstMiddle-section-main-row,
+.secondMiddle-section-main-row,
+.lower-section-main-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.upper-section-text-col,
+.secondMiddle-section-text-col {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.firstMiddle-section-text-col,
+.lower-section-text-col {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    padding: 1.5rem;
+}
+
+.upper-section-text-col>span,
+.firstMiddle-section-text-col>span,
+.secondMiddle-section-text-col>span,
+.title-div>span,
+.lower-section-text-col>span {
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgba(210, 171, 44, 1);
+    padding: 0.2rem 2.7rem;
+    margin: 0.5rem 0;
+
+}
+
+.secondMiddle-section-text-col>span,
+.lower-section-text-col>span {
+    background-color: rgba(210, 171, 44, 1) !important;
+}
+
+.title-div>span {
+    background-color: rgb(210, 172, 44);
+    margin-bottom: 4rem;
+}
+
+.upper-section-text-col>p,
+.firstMiddle-section-text-col>p,
+.secondMiddle-section-text-col>p {
+    font-size: 1.1rem;
+    color: rgb(41, 41, 41);
+}
+
+.secondMiddle-section-text-col>p,
+.secondMiddle-section-text-col>h1,
+.lower-section-text-col>p,
+.lower-section-text-col>h1 {
+    color: white;
+}
+
+.upper-section-image,
+.firstMiddle-section-image,
+.secondMiddle-section-image,
+.lower-section-image {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.upper-section-image,
+.secondMiddle-section-image {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+
+}
+
+.firstMiddle-section-image,
+.lower-section-image {
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.secondMiddle-section-image-col,
+.firstMiddle-section-image-col,
+.upper-section-image-col,
+.lower-section-image-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdMiddle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    background-color: white;
+}
+
+.thirdMiddle-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.title-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.title-div>p {
+    max-width: 20rem;
+}
+
+.thirdMiddle-section-main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.thirdMiddle-section-commersialAirport1-col,
+.thirdMiddle-section-commersialAirport2-col,
+.thirdMiddle-section-commersialAirport3-col,
+.thirdMiddle-section-commersialAirport4-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 0.8rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.thirdMiddle-section-image {
+    padding: 0.5rem;
+}
+
+.listed-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.iconss {
+    margin: 0.6rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .upper-section-image,
+    .secondMiddle-section-image,
+    .firstMiddle-section-image,
+    .lower-section-image {
+        clip-path: none;
+    }
+
+    .firstMiddle-section-main-row,
+    .lower-section-main-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and(max-width: 768px) {
+
+    .upper-section-image,
+    .secondMiddle-section-image,
+    .firstMiddle-section-image,
+    .lower-section-image {
+        clip-path: none;
+    }
+
+    .firstMiddle-section-main-row,
+    .lower-section-main-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)and(max-width: 1090px) {
+
+    .upper-section-image,
+    .secondMiddle-section-image,
+    .firstMiddle-section-image,
+    .lower-section-image {
+        clip-path: none;
+    }
+
+    .firstMiddle-section-main-row,
+    .lower-section-main-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
